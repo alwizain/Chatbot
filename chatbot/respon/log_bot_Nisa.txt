@@ -1,0 +1,6 @@
+(261250708) Nisa : Halo
+Chatbot : Halo, Silahkan perkenalkan diri anda dengan format sebagai berikut: Perkenalkan nama lengkap saya adalah ... (isi titik - titik sesuai data anda)
+(261250708) Nisa : Perkenalkan nama lengkap saya adalah nisa
+Chatbot : Silahkan informasikan usia Anda dengan format sebagai berikut: Usia saya saat ini adalah ... tahun (isi titik - titik sesuai data anda)
+(261250708) Nisa : Usia saya saat ini adalah 17 tahun
+Chatbot : Silahkan tuliskan alamat Anda dengan format: Saya beralamat di ... (isi titik - titik sesusai data anda)

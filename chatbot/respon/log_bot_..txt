@@ -1,0 +1,18 @@
+(1276383329) . : halo
+Chatbot : Halo, Silahkan perkenalkan diri anda dengan format sebagai berikut: Perkenalkan nama lengkap saya adalah ... (isi titik - titik sesuai data anda)
+(1276383329) . : Perkenalkan nama lengkap saya adalah n
+Chatbot : Silahkan informasikan usia Anda dengan format sebagai berikut: Usia saya saat ini adalah ... tahun (isi titik - titik sesuai data anda)
+(1276383329) . : usia saya saat ini adalah 15 tahun
+Chatbot : Silahkan tuliskan alamat Anda dengan format: Saya beralamat di ... (isi titik - titik sesusai data anda)
+(1276383329) . : saya beralamat di oslo
+Chatbot : Beritahu kami pendidikan terakhir anda dengan format sebagai berikut: Pendidikan terakhir saya adalah ... (isi titik - titik sesuai data anda)
+(1276383329) . : Pendidikan terakhir saya adalah kepo aja si
+Chatbot : Ceritakan pengalaman kerja Anda dengan format sebagai berikut: Saya memiliki pengalaman kerja di ... selama ... tahun (isi titik - titik sesuai data anda). Jika anda belum memiliki pengalaman kerja, anda bisa mengisi dengan format : saya belum memiliki pe
+(1276383329) . : saya memiliki pengalaman kerja di pt selama 2 tahun
+Chatbot : Beritahu kami skill yang Anda miliki dengan format sebagai berikut: Skill yang saya miliki adalah ... (isi titik - titik sesuai data anda)
+(1276383329) . : skill yang saya miliki adalah tidak ada dong
+Chatbot : Ceritakan kelebihan yang Anda miliki dengan format sebagai berikut: Kelebihan yang saya miliki adalah ... (isi titik - titik sesuai data anda)
+(1276383329) . : kelebihan yang saya miliki adalah gatau
+Chatbot : Sebutkan kekurangan pada diri Anda dengan format sebagai berikut : Kekurangan yang saya miliki adalah ... (isi titik - titik sesuai data anda)
+(1276383329) . : /end
+Chatbot : Selesai

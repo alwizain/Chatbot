@@ -1,0 +1,81 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block content %}
+<!-- Page Heading -->
+<!-- <div class="d-sm-flex align-items-center justify-content-between mb-4">
+    <h1 class="h3 mb-0 text-gray-800">Dashboard</h1>
+</div> -->
+
+<!-- Content Row -->
+
+<div class="row">
+
+    <div class="col">
+
+        <!-- Illustrations -->
+        <div class="card shadow mb-4">
+            <div class="card-body">
+                <div class="text-center">
+                    <img class="img-fluid" style="height: 7cm; width: 30cm;"
+                        src="{% static 'img/bgaaa.jpg' %}" alt="...">
+                </div>
+            </div>
+        </div>
+
+        <!-- Illustrations -->
+        <div class="card-deck">
+            <div class="card shadow mb-4">
+                <div class="card-header py-3">
+                    <h5 class="m-0 font-weight-bold text-dark">Siapa itu AIBot?</h5>
+                </div>
+                <div class="card-body">
+                    <div class="text-center">
+                        <img class="img-fluid px-3 px-sm-4 mt-3 mb-4" style="width: 15rem;"
+                            src="{% static 'img/chatting.svg' %}" alt="...">
+                    </div>
+                    <p>AIBot merupakan sebuah chatbot yang digunakan dalam membantu proses seleksi kandidat karyawan
+                        dalam tahapan wawancara. Dengan AIBot, kandidat karyawan akan melakukan proses wawancara dengan 
+                        suatu machine sehingga proses wawancara akan terdigitalisasi dan terotomatisasi.</p>
+                </div>
+            </div>
+
+            <div class="card shadow mb-4">
+                <div class="card-header py-3">
+                    <h5 class="m-0 font-weight-bold text-dark">Cara Penggunaan Bot</h5>
+                </div>
+                <div class="card-body">
+                    <div class="text-center">
+                        <img class="img-fluid px-3 px-sm-4 mt-3 mb-4" style="width: 25rem;"
+                            src="{% static 'img/user_flow.svg' %}" alt="...">
+                    </div>
+                    <br>
+                    <p>Penggunaan dari AIBot dapat dinikmati oleh pengguna pada platform Telegram.
+                        Pengguna tinggal memulai percakapan dengan mengirimkan perintah "/start" atau
+                        memilih perintah "/start" untuk pengguna baru. Selanjutnya pengguna tinggal mengikuti
+                        alur percakapan yang dikirimkan oleh AIBot.</p>
+                        <p>Untuk mengakses AIBot pada Telegram, silahkan klik link berikut <a href="https://t.me/InterviewCoBot">AIBot</a></p>
+                </div>
+            </div>
+
+            <div class="card shadow mb-4">
+                <div class="card-header py-3">
+                    <h5 class="m-0 font-weight-bold text-dark">Cara Penggunaan Web</h5>
+                </div>
+                <div class="card-body">
+                    <div class="text-center">
+                        <img class="img-fluid px-3 px-sm-4 mt-3 mb-4" style="width: 14rem;"
+                            src="{% static 'img/web.svg' %}" alt="...">
+                    </div>
+                    <p>Penggunaan web Management Chatbot Wawancara Kerja ini, pengguna harus melakukan login atau registrasi
+                        terlebih dahulu. Kemudian pengguna akan disajikan halaman Dashboard sebagai halaman awal. Jika pengguna
+                        ingin menambah data inputs atau patterns pada chatbot, pengguna tinggal masuk pada halaman chatbot melalui tab disebelah kiri layar.
+                        Apabila pengguna ingin menambah data respon pada chatbot, pengguna tinggal masuk pada halaman chatbot respon melalui tab disebelah kiri layar.
+                        Pengguna juga dapat melakukan edit dan hapus data didalam halaman tersebut.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock content%}

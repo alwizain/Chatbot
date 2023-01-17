@@ -1,0 +1,241 @@
+{
+    "intents": 
+    [
+        {
+            "tag": "salam",
+            "patterns": [
+                "hai salam kenal, nama saya", 
+                "haii", 
+                "hei", 
+                "halo", 
+                "hello" 
+            ],
+            "responses": [
+                "Halo, Silahkan perkenalkan diri anda dengan format sebagai berikut: Perkenalkan nama lengkap saya adalah ... (isi titik - titik sesuai data anda) "
+
+            ]
+        },
+        {
+            "tag": "nama",
+            "patterns": [
+                "baik terima kasih, nama saya", 
+                "baik, perkenalkan saya", 
+                "baik saya akan memperkenalkan diri, nama saya"
+            ],
+            "responses": [
+                "Silahkan informasikan usia Anda dengan format sebagai berikut: Usia saya saat ini adalah ... tahun (isi titik - titik sesuai data anda"
+            ]
+        },
+        {
+            "tag": "umur",
+            "patterns": [
+                "umur saya sekarang, tahun", 
+                "umur saya saat ini adalah tahun", 
+                "umur saya saat ini tahun"
+            ],
+            "responses": [
+                "Silahkan tuliskan alamat Anda dengan format: Saya beralamat di ... (isi titik - titik sesusai data anda)"
+            ]
+        },
+        {
+            "tag": "alamat",
+            "patterns": [
+                "saya tinggal di",
+                "saya beralamat di",
+                "saya berdomisili di",
+                "saya beralamat di",
+                "saya bertempat tinggal di", 
+                "sekarang saya tinggal di"
+                
+            ],
+            "responses": [
+                "Beritahu kami pendidikan terakhir anda dengan format sebagai berikut: Pendidikan terakhir saya adalah ... (isi titik - titik sesuai data anda)"
+            ]
+        },
+        {
+            "tag": "pendidikan_terakhir",
+            "patterns": [
+                "saya adalah sarjana", 
+                "saya memiliki latar belakang pendidikan", 
+                "saya adalah mahasiswa", 
+                "saya adalah seorang lulusan dari", 
+                "saya lulus dari", 
+                "saya lulusan dari",
+                "saya kuliah di", 
+                "saya masih menempuh pendidikan perguruan tinggi di, saat ini"
+                
+            ],
+            "responses": [
+                "Ceritakan pengalaman kerja Anda dengan format sebagai berikut: Saya memiliki pengalaman kerja di ... selama ... tahun (isi titik - titik sesuai data anda). Jika anda belum memiliki pengalaman kerja, anda bisa mengisi dengan format : saya belum memiliki pengalaman kerja"
+            ]
+        },
+        {
+            "tag": "pengalaman",
+            "patterns": [
+                "saya memiliki pengalaman kerja di selama tahun",
+                "sebelumnya saya pernah bekerja di, selama tahun",
+                "maaf saya tidak memiliki pengalaman kerja",
+                "maaf saya belum bekerja sebelumnya",
+                "saya belum memiliki pengalaman kerja",
+                "saya berpengalaman kerja di Perusahaan"
+                
+            ],
+            "responses": [
+                "Beritahu kami skill yang Anda miliki dengan format sebagai berikut: Skill yang saya miliki adalah ... (isi titik - titik sesuai data anda)"
+            ]
+        },
+        {
+            "tag": "skill",
+            "patterns": [
+                "skill yang saya miliki adalah",
+                "kemampuan yang saya punya",
+                "kemampuan saya adalah",
+                "keahlian yang saya miliki adalah", 
+                "saya memiliki kemampuan",
+                "saya memiliki skill",
+                "saya mampu dalam mengoperasikan Microsoft",
+                "saya dapat membuat program coding"
+                
+            ],
+            "responses": [
+                "Ceritakan kelebihan yang Anda miliki dengan format sebagai berikut: Kelebihan yang saya miliki adalah ... (isi titik - titik sesuai data anda)"
+            ]
+        },
+        {
+            "tag": "kelebihan",
+            "patterns": [
+                "kelebihan saya dapat berkomitmen dalam bekerja",
+                "kelebihan saya mampu memberikan solusi disetiap masalah",
+                "kelebihan diri saya dapat membangkitkan semangat dan merangkul tim dalam bekerjasama",
+                "kelebihan yang saya miliki adalah",
+                "kelebihan yang menonjol dalam diri saya",
+                "sesuai dengan latar belakang pendidikan saya, saya memiliki kemampuan dalam hal komunikasi yang baik, memiliki kinerja yang tinggi, dan dapat bekerja dalam tim"
+            ],
+            "responses": [
+                "Sebutkan kekurangan pada diri Anda dengan format sebagai berikut : Kekurangan yang saya miliki adalah ... (isi titik - titik sesuai data anda)"
+            ]
+        },
+        {
+            "tag": "kekurangan",
+            "patterns": [
+                "kekurangan saya", 
+                "kekurangan yang saya punya", 
+                "kelemahan yang saya punya",
+                "kelemahan saya", 
+                "kekurangan diri saya", 
+                "kekurangan yang saya miliki adalah",
+                "saat ini kekurangan saya adalah"
+                
+            ],
+            "responses": [
+                "Apa yang kamu ketahui tentang perusahaan ini ? Silahkan ketik jawaban anda dengan format berikut : Yang saya ketahui tentang perusahan ini adalah ... (isi titik - titik sesuai data anda)"
+            ]
+        },
+        {
+            "tag": "tentang_perusahaan",
+            "patterns": [
+                "yang saya ketahui tentang perusahaan ini adalah", 
+                "perusahaan ini didirikan oleh", 
+                "pendiri perusahaan ini adalah", 
+                "perusahaan ini bergerak dibidang", 
+                "perusahaan ini sudah berdiri sejak",
+                "perusahaan ini adalah ecommerce yang sudah berdiri sejak tahun"
+                
+            ],
+            "responses": [
+                "Berikan alasan kenapa kami harus menerima Anda. Tuliskan dengan format sebagai berikut : Perusahaan harus menerima saya karena ... (isi titik - titik sesuai data anda)"
+            ]
+        },
+        {
+            "tag": "alasan_menerima",
+            "patterns": [
+                "perusahaan harus menerima saya karena",
+                "Perusahaan harus menerima saya karena saya mampu bekerja dibawah tekanan dan kemampuan saya sedang dibutuhkan oleh perusahaan", 
+                "saya bisa berkontribusi untuk perusahaan",  
+                "saya memiliki keluarga yang harus dihidupi", 
+                "saya memiliki anak yang masih sekolah", 
+                "perusahaan sangat cocok dengan saya"
+                
+            ],
+            "responses": [
+                "Silahkan tulis posisi yang Anda inginkan dengan format sebagai berikut: Posisi yang saya inginkan adalah ... (isi titik - titik sesuai keinginan anda)"
+            ]
+        },
+        {
+            "tag": "posisi",
+            "patterns": [
+                "saya ingin mengambil posisi sebagai spg",
+                "posisi yang saya inginkan adalah",
+                "saya melamar diposisi spg",
+                "saya berharap diterima diposisi spg",
+                "saya berharap diterima sebagai spg",
+                "saya ingin mengambil posisi sebagai media"
+                
+            ],
+            "responses": [
+                "Tuliskan nominal gaji yang Anda inginkan dengan format berikut : Saya menginginkan gaji sekitar Rp 5.000.000.00 (isi nominal sesuai keinginan anda)"
+            ]
+        },
+        {
+            "tag": "gaji",
+            "patterns": [
+                "besaran gaji yang saya inginkan adalah",
+                "sesuai dengan standar perusahaan Bapak/Ibu",
+                "sesuai dengan standar perusahaan ini",
+                "melihat kemampuan dan keterampilan serta pengalaman yang saya miliki, saya mengajukan kompensasi dengan sekitar 6 hingga 7 juta, semoga Bapak/Ibu berkenan untuk mempertimbangkannya",
+                "dari kemampuan yang saya miliki, saya berhak untuk mendapatkan gaji dengan kisaran 3 hingga 4 juta",
+                "gaji yang saya inginkan diatas UMR"
+                
+            ],
+            "responses": [
+                "Silahkan jelaskan kontribusi apa yang Anda berikan untuk perusahaan dengan format berikut: Kontribusi yang saya berikan adalah ... (isi titik - titik dengan yang anda inginkan)"
+            ]
+        },
+        {
+            "tag": "kontribusi",
+            "patterns": [
+                "saya dapat berkontribusi",
+                "kontribusi yang akan saya berikan sebagai karyawan kepada perusahaan adalah berkomitmen untuk memanjukan perusahaan dengan cara menjujung tinggi integritas serta kejujuran karna tanggung jawab serta kejujuran merupakan etika moral sangat penting yang harus dimiliki setiap karyawan agar terciptanya lingkungan kerja yang efektif",
+                "komtribusi yang saya berikan adalah selalu berinovasi dalam bekerja saya baik individu maupun kelompok dengan itu saya harap dapat memajukna perusahaan bapak kedepannya",
+                "kontribusi yang saya berikan adalah Saya selalu bekerja keras untuk memberikan yang terbaik bagi perusahaan. Dengan datang tepat waktu dan mengerjakan pekerjaan di hari itu tanpa menunda serta berusaha untuk tidak memberikan kesalahan di tiap pekerjaannya, membuat saya yakin dapat berkomitmen di perusahaan ini",
+                "kontribusi yang saya berikan adalah berkomitmen untuk memajukan perusahaan dengan kemampuan yang saya miliki. Serta bekerja keras untuk memberikan yang terbaik bagi perusahaan dengan datang tepat waktu dan mengerjakan pekerjaan tanpa menunda-nunda",
+                "kontribusi yang saya berikan adalah beroptimis dan gigih untuk menemukan solusi atas sebuah masalah. Jika saya menemukan kesulitan dalam bekerja saya mencoba untuk persisten agar menemukan solusi kreatif. Dengan prinsip ini saya bisa memberi kontribusi dalam pengembangan iklim kerja yang positif",
+                "saya dapat memberikan kontribusi dalam strategi yang tepat dalam mengembangkan perusahaan melalui media sosial pada perusahaan Bapak/Ibu"
+            ],
+            "responses": [
+                "Dari mana Anda mendapatkan informasi tentang lowongan kerja ini? Tuliskan jawaban Anda dengan format berikut: saya mengetahuinya melalui ... ( isi titik - titik sesuai data anda)"
+            ]
+        },
+        {
+            "tag": "info_loker",
+            "patterns": [
+                "saya mengetahuinya melalui media sosial",
+                "saya mengetahuinya melalui akun loker",
+                "saya dapat informasinya di", 
+                "saya mengetahuinya melalui situs google", 
+                "saya mengetahuinya melalui jobfair", 
+                "saya mengetahuinya melalui jaringan pertemanan",
+                "saya mengetahuinya melalui koran", 
+                "saya mengetahuinya melalui Linkedlln"
+            ],
+            "responses": [ 
+                "Baik, sekian wawancara kali ini. Informasi lebih lanjut akan kami hubungi nanti. Mohon untuk tidak memberikan balasan pada pesan ini!",
+                "Baik, wawancara telah selesai. Terkait informasi lebih lanjut akan kami hubungi nanti. Mohon untuk tidak memberikan balasan pada pesan ini!"
+            ]
+        },
+        {
+            "tag": "penutup",
+            "patterns": [
+                "Selamat Tinggal, terima kasih", 
+                "Dah, sampai jumpa", 
+                "Daah, terima kasih", 
+                "Semoga harimu menyenangkan", 
+                "Ok makasih"
+            ],
+            "responses": [
+                "Sampai jumpa",
+                "Selamat tinggal, semoga harimu menyenangkan"
+            ]
+        }
+    ]
+}

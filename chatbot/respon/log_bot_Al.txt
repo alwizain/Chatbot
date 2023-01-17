@@ -1,0 +1,72 @@
+(1005761102) Al : /start 
+Chatbot : Selamat datang, Al! Silahkan kirim pesan sapaan untuk memulai proses wawancara 
+(1005761102) Al : Haii
+Chatbot : Halo, Silahkan perkenalkan diri anda dengan format sebagai berikut: Perkenalkan nama lengkap saya adalah ... (isi titik - titik sesuai data anda)
+(1005761102) Al : Perkenalkan nama lengkap saya adalah Alwizain
+Chatbot : Silahkan informasikan usia Anda dengan format sebagai berikut: Usia saya saat ini adalah ... tahun (isi titik - titik sesuai data anda)
+(1005761102) Al : Usia saya saat ini adalah 21 tahun
+Chatbot : Silahkan tuliskan alamat Anda dengan format: Saya beralamat di ... (isi titik - titik sesusai data anda)
+(1005761102) Al : Saya beralamat di Bandung
+Chatbot : Beritahu kami pendidikan terakhir anda dengan format sebagai berikut: Pendidikan terakhir saya adalah ... (isi titik - titik sesuai data anda)
+(1005761102) Al : Pendidikan terakhir saya adalah S1
+Chatbot : Ceritakan pengalaman kerja Anda dengan format sebagai berikut: Saya memiliki pengalaman kerja di ... selama ... tahun (isi titik - titik sesuai data anda). Jika anda belum memiliki pengalaman kerja, anda bisa mengisi dengan format : saya belum memiliki pe
+(1005761102) Al : Saya belum memiliki pengalaman kerja
+Chatbot : Beritahu kami skill yang Anda miliki dengan format sebagai berikut: Skill yang saya miliki adalah ... (isi titik - titik sesuai data anda)
+(1005761102) Al : Saya mengetahuinya melalui media sosial
+Chatbot : Baik, wawancara telah selesai. Terkait informasi lebih lanjut akan kami hubungi nanti. Mohon untuk tidak memberikan balasan pada pesan ini!
+(1005761102) Al : /end
+Chatbot : Terimakasih Al, Anda telah menyelesaikan tahap wawancara. Mohon untuk tidak membalas pesan ini!
+(1005761102) Al : Saya mengetahuinya melalui media sosial
+Chatbot : Baik, wawancara telah selesai. Terkait informasi lebih lanjut akan kami hubungi nanti. Mohon untuk tidak memberikan balasan pada pesan ini!
+(1005761102) Al : Saya mengetahuinya melalui media sosial
+Chatbot : Baik, wawancara telah selesai. Terkait informasi lebih lanjut akan kami hubungi nanti. Untuk mengakhiri wawancara ini, silahkan kirimkan pesan "/end".
+(1005761102) Al : /end
+Chatbot : Terimakasih Al, Anda telah menyelesaikan tahap wawancara. Mohon untuk tidak membalas pesan ini!
+(1005761102) Al : Pendidikan terakhir saya adalah S1
+Chatbot : Ceritakan pengalaman kerja Anda dengan format sebagai berikut: Saya memiliki pengalaman kerja di ... selama ... tahun (isi titik - titik sesuai data anda). Jika anda belum memiliki pengalaman kerja, anda bisa mengisi dengan format : saya belum memiliki pe
+(1005761102) Al : Pendidikan terakhir saya adalah S1
+Chatbot : Ceritakan pengalaman kerja Anda dengan format sebagai berikut: Saya memiliki pengalaman kerja di ... selama ... tahun (isi titik - titik sesuai data anda). Jika anda belum memiliki pengalaman kerja, anda bisa mengisi dengan format : saya belum memiliki pe
+(1005761102) Al : Pendidikan terakhir saya adalah S1
+Chatbot : Ceritakan pengalaman kerja Anda dengan format sebagai berikut: Saya memiliki pengalaman kerja di ... selama ... tahun (isi titik - titik sesuai data anda). Jika anda belum memiliki pengalaman kerja, anda bisa mengisi dengan format : saya belum memiliki pengalaman kerja
+(1005761102) Al : /start 
+Chatbot : Selamat datang, Al! Silahkan kirim pesan sapaan untuk memulai proses wawancara 
+(1005761102) Al : Hai
+Chatbot : Halo, Silahkan perkenalkan diri anda dengan format sebagai berikut: Perkenalkan nama lengkap saya adalah ... (isi titik - titik sesuai data anda)
+(1005761102) Al : Hai
+Chatbot : Halo, Silahkan perkenalkan diri anda dengan format sebagai berikut: Perkenalkan nama lengkap saya adalah ... (isi titik - titik sesuai data anda)
+(1005761102) Al : /start 
+Chatbot : Selamat datang, Al! Silahkan kirim pesan sapaan untuk memulai proses wawancara 
+(1005761102) Al : /start 
+Chatbot : Selamat datang, Al! Silahkan kirim pesan sapaan untuk memulai proses wawancara 
+(1005761102) Al : Haii
+Chatbot : Halo, Silahkan perkenalkan diri anda dengan format sebagai berikut: Perkenalkan nama lengkap saya adalah ... (isi titik - titik sesuai data anda)
+(1005761102) Al : Perkenalkan nama lengkap saya adalah Alwizain
+Chatbot : Silahkan informasikan usia Anda dengan format sebagai berikut: Usia saya saat ini adalah ... tahun (isi titik - titik sesuai data anda)
+(1005761102) Al : Usia saya saat ini adalah 21 tahun
+Chatbot : Silahkan tuliskan alamat Anda dengan format: Saya beralamat di ... (isi titik - titik sesusai data anda)
+(1005761102) Al : Saya beralamat di Bandung
+Chatbot : Beritahu kami pendidikan terakhir anda dengan format sebagai berikut: Pendidikan terakhir saya adalah ... (isi titik - titik sesuai data anda)
+(1005761102) Al : Pendidikan terakhir saya adalah S1
+Chatbot : Ceritakan pengalaman kerja Anda dengan format sebagai berikut: Saya memiliki pengalaman kerja di ... selama ... tahun (isi titik - titik sesuai data anda). Jika anda belum memiliki pengalaman kerja, anda bisa mengisi dengan format : saya belum memiliki pe
+(1005761102) Al : Saya belum memiliki pengalaman kerja
+Chatbot : Beritahu kami skill yang Anda miliki dengan format sebagai berikut: Skill yang saya miliki adalah ... (isi titik - titik sesuai data anda)
+(1005761102) Al : Skill yang saya miliki adalah python
+Chatbot : Ceritakan kelebihan yang Anda miliki dengan format sebagai berikut: Kelebihan yang saya miliki adalah ... (isi titik - titik sesuai data anda)
+(1005761102) Al : Kelebihan yang saya miliki adalah mandiri
+Chatbot : Sebutkan kekurangan pada diri Anda dengan format sebagai berikut : Kekurangan yang saya miliki adalah ... (isi titik - titik sesuai data anda)
+(1005761102) Al : Kekurangan yang saya miliki adalah malas
+Chatbot : Apa yang kamu ketahui tentang perusahaan ini ? Silahkan ketik jawaban anda dengan format berikut : Yang saya ketahui tentang perusahan ini adalah ... (isi titik - titik sesuai data anda)
+(1005761102) Al : Yang saya ketahui tentang perusahaan ini adalah perusahaan ini bergerak dalam bidang pendidikan dan teknologi
+Chatbot : Berikan alasan kenapa kami harus menerima Anda. Tuliskan dengan format sebagai berikut : Perusahaan harus menerima saya karena ... (isi titik - titik sesuai data anda)
+(1005761102) Al : Perusahaan harus menerima saya karena saya memiliki kemampuan yang dibutuhkan oleh perusahaan
+Chatbot : Silahkan tulis posisi yang Anda inginkan dengan format sebagai berikut: Posisi yang saya inginkan adalah ... (isi titik - titik sesuai keinginan anda)
+(1005761102) Al : Posisi yang saya inginkan adalah programmer
+Chatbot : Tuliskan nominal gaji yang Anda inginkan dengan format berikut : Saya menginginkan gaji sekitar Rp 5.000.000.00 (isi nominal sesuai keinginan anda)
+(1005761102) Al : Saya menginginkan gaji sekitar Rp 10 juta
+Chatbot : Silahkan jelaskan kontribusi apa yang Anda berikan untuk perusahaan dengan format berikut: Kontribusi yang saya berikan adalah ... (isi titik - titik dengan yang anda inginkan)
+(1005761102) Al : Kontribusi yang saya berikan adalah bekerja keras untuk membantu perusahaan dalam mencapai tujuan
+Chatbot : Beritahu kami skill yang Anda miliki dengan format sebagai berikut: Skill yang saya miliki adalah ... (isi titik - titik sesuai data anda)
+(1005761102) Al : Kontribusi yang saya berikan adalah saya akan bekerja keras untuk membantu perusahaan dalam mencapai visi dan misi perusahaan
+Chatbot : Dari mana Anda mendapatkan informasi tentang lowongan kerja ini? Tuliskan jawaban Anda dengan format berikut: saya mengetahuinya melalui ... ( isi titik - titik sesuai data anda)
+(1005761102) Al : Saya mengetahuinya melalui media sosial
+Chatbot : Baik, sekian wawancara kali ini. Informasi lebih lanjut akan kami hubungi nanti. Mohon untuk tidak memberikan balasan pada pesan ini!

@@ -1,0 +1,136 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block search %}
+<!-- Sidebar Toggle (Topbar) -->
+    <button id="sidebarToggleTop" class="btn btn-link d-md-none rounded-circle mr-3">
+        <i class="fa fa-bars"></i>
+    </button>
+
+    <!-- Topbar Search -->
+    <form class="d-none d-sm-inline-block form-inline mr-auto ml-md-3 my-2 my-md-0 mw-100 navbar-search"
+        action="{% url 'search:search' %}" method="GET">
+        <div class="input-group">
+            <input type="search" class="form-control bg-light border-0 small" placeholder="Search by Tags and Inputs..."
+                aria-label="Search" aria-describedby="basic-addon2"  name="q" value="{{search}}">
+            <div class="input-group-append">
+                <button class="btn btn-primary" type="submit">
+                    <i class="fas fa-search fa-sm"></i>
+                </button>
+            </div>
+        </div>
+    </form>                        
+{% endblock search %}
+
+{% block content %}
+<div class="d-sm-flex align-items-center justify-content-between mb-4">
+    <h1 class="h3 mb-0 text-gray-800">Manage Input Chatbot</h1>
+</div>
+
+<div class="col">
+    <div class="card border-bottom-primary shadow">
+        <div class="card-body">
+            <form method="POST">
+                {% csrf_token %}
+                <div class="form-group">
+                    <label for="formGroupExampleInput2">Tag</label>
+                    <select class="form-control" name="tag" id="tag">
+                        <option selected disabled></option>
+                        <option value="salam">Salam</option>
+                        <option value="nama">Nama</option>
+                        <option value="umur">Umur</option>
+                        <option value="alamat">Alamat</option>
+                        <option value="pendidikan_terakhir">Pendidikan terakhir</option>
+                        <option value="pengalaman">Pengalaman</option>
+                        <option value="skill">Skill</option>
+                        <option value="kelebihan">Kelebihan</option>
+                        <option value="kekurangan">Kekurangan</option>
+                        <option value="tentang_perusahaan">Tentang perusahaan</option>
+                        <option value="alasan_menerima">Alasan menerima</option>
+                        <option value="posisi">Posisi</option>
+                        <option value="gaji">Gaji</option>
+                        <option value="kontribusi">Kontribusi</option>
+                        <option value="info_loker">Info loker</option>
+                        <option value="penutup">Penutup</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="formGroupExampleInput2">Inputs</label>
+                    <input type="text" class="form-control" name="patterns" id="patterns">
+                </div>
+                <hr class="mb-4">
+                <button type="submit" class="btn btn-primary btn-block">Submit</button>
+            </form>
+        </div>
+    </div>
+
+    <br><hr>
+
+    <div class="card border-bottom-primary shadow">
+        <div class="card-body">
+            <table class="table table-bordered">
+                <thead>
+                    <tr>
+                        <th scope="col">Tags</th>
+                        <th scope="col">Inputs</th>
+                        <th scope="col">Action</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {% for respon in page_res %}
+                    <tr>
+                        <td>{{ respon.tag }}</td>
+                        <td>{{ respon.patterns }}</td>
+                        <td>                            
+                            <a href="{% url 'update' id=respon.id %}" class="btn btn-outline-warning btn-sm">Update</a>
+                            <br><br>
+                            <a href="{% url 'delete' id=respon.id %}" class="btn btn-outline-danger btn-sm">Delete</a>
+                        
+                            <!-- Delete Modal-->
+                            <!-- <div class="modal fade" id="deleteModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+                                aria-hidden="true">
+                                <div class="modal-dialog" role="document">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h5 class="modal-title" id="exampleModalLabel">Are you sure for delete?</h5>
+                                            <button class="close" type="button" data-dismiss="modal" aria-label="Close">
+                                                <span aria-hidden="true">&times;</span>
+                                            </button>
+                                        </div>
+                                        <div class="modal-body">Select "Delete" below if you are ready to delete your tag.</div>
+                                        <div class="modal-footer">
+                                            <button class="btn btn-secondary" type="button" data-dismiss="modal">Cancel</button>
+                                            <a class="btn btn-primary" href="{% url 'delete' id=respon.id %}">Delete</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div> -->
+                        </td>
+                    </tr>
+                    {% endfor %}
+                </tbody>
+            </table>
+
+            <!-- Pagination -->
+            <div class="pagination">
+                <span class="step-links">
+                    {% if page_res.has_previous %}
+                        <a href="?page=1">&laquo; first</a>
+                        <a href="?page={{ page_res.previous_page_number }}">previous</a>
+                    {% endif %}
+                    
+                    <span class="current">
+                        Page {{ page_res.number }} of {{ page_res.paginator.num_pages }}.
+                    </span>
+            
+                    {% if page_res.has_next %}
+                        <a href="?page={{ page_res.next_page_number }}">next</a>
+                        <a href="?page={{ page_res.paginator.num_pages }}">last &raquo;</a>
+                    {% endif %}
+                </span>
+            </div>
+
+        </div>
+    </div>
+</div>
+{% endblock content %}

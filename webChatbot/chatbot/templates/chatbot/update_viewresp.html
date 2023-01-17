@@ -1,0 +1,31 @@
+{% extends "base.html" %}
+{% load static %}
+{% load crispy_forms_tags %}
+
+{% block content %}
+<div class="d-sm-flex align-items-center justify-content-between mb-4">
+    <h1 class="h3 mb-0 text-gray-800">Update Respon Chatbot</h1>
+</div>
+
+<div class="col">
+    <div class="card border-bottom-primary shadow">
+        <div class="card-body">
+            <form method="POST">
+                <!-- Security token by Django -->
+                {% csrf_token %}
+        
+                <!-- form as paragraph -->
+                <div class="mb-4">
+                {{ form.tag|as_crispy_field }}
+                </div>
+                <div class="mb-4">
+                {{ form.responses|as_crispy_field }}
+                </div>
+
+                <hr class="mb-4">
+                <button type="submit" class="btn btn-primary btn-block">Submit</button>
+            </form>
+        </div>
+    </div>
+</div>
+{% endblock content %}
