@@ -3,7 +3,7 @@ from process import preparation, generate_response
 from flask import Flask, request, Response
 import requests
  
-TOKEN = "5890095726:AAGqNWvgPrg-qpZIDBgjdVu0O02Nifc3K_g"
+TOKEN = "YOUR_TOKEN_BOT"
 
 # download nltk
 preparation()
